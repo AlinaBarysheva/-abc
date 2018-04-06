@@ -11,9 +11,9 @@ int main() {
 	cout << "Введите строку: ";
 	cin >> str;
 
-	bool flag = false;											// Флаг, показывающий, нашли ли мы abc или нет.
+	bool flag = false;		             // Флаг, показывающий, нашли ли мы abc или нет.
 	for (int i = 0; i < str.length() - 2; ++i) {
-		string sub = str.substr(i, 3);							// Подстрока длины 3.
+		string sub = str.substr(i, 3);	     // Подстрока длины 3.
 		if (sub == "abc") {
 			flag = true;
 			break;
